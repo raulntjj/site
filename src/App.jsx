@@ -8,17 +8,7 @@ function App() {
   return (
     <>
     <header> <Header /> </header>
-    
-    <main> 
-      <Form/>
-      <Form/>
-      <Form/>
-      <Form/>
-      <Form/>
-      <Form/>
-      <Form/>
-      <Form/>
-    </main> 
+    <main><Form/><Form/><Form/></main> 
     </>
   )
 }

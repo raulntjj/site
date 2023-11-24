@@ -4,8 +4,8 @@ function Form(props){
     return(
         <section>
             <div>
-                <h2>"Meus jogos"</h2>
-                <p>"Os jogos que mais jogo"</p>
+                <h2>Meus jogos</h2>
+                <p>Os jogos que mais jogo</p>
                 <ul class="games-list">
                     <List
                     url="https://www.twitch.tv/directory/game/VALORANT"

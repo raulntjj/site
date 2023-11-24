@@ -53,7 +53,6 @@ main {
     max-width: 580px;
     width: 90%;
     margin: 32px auto;
-
     display: grid;
     gap: 24px;
 }
@@ -83,10 +82,12 @@ section p {
 
 section ul {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
     gap: 16px;
-
-    margin-top: 24px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-top: 10px;
 }
 
 section ul li {
@@ -167,5 +168,11 @@ main section:nth-child(3) {
     to {
         opacity: 1;
         transform: translateY(0)
+    }
+}
+
+@media screen and (max_width: 768px){
+    section ul{
+        color: black;
     }
 }
